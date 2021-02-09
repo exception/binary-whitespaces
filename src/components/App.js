@@ -2,7 +2,7 @@ import React from 'react';
 import Decoder from './Decoder';
 import Encoder from './Encoder';
 
-export default function App() {
+function App() {
   return (
     <>
       <div className='container'>
@@ -19,3 +19,5 @@ export default function App() {
     </>
   )
 }
+
+export default React.memo(App);
