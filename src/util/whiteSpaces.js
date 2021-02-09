@@ -1,0 +1,1 @@
+export const whiteSpaces = ['\u200C', '\u200b'];
